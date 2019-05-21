@@ -45,7 +45,11 @@ public class SampleView extends ViewPart {
 	private Action action2;
 	private Action doubleClickAction;
 	 
-
+/**
+ * 
+ * @author FXAchanged
+ *
+ */
 	class ViewLabelProvider extends LabelProvider implements ITableLabelProvider {
 		@Override
 		public String getColumnText(Object obj, int index) {
